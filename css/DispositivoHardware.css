@@ -70,7 +70,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: lightgrey;
     border-radius: 50px;
     margin-bottom: 1%;
@@ -98,12 +98,17 @@ body{
     color: black;
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 20px;
+    margin-top: 1%;
     margin-bottom: 20px;
+    text-decoration: none;
+}
+.elementosNav:hover{
+    color: gray;
 }
 
 .encabezados{
-    margin-left: 8.5%;  
+    margin-left: 8.5%;
+    margin-top: 3%;  
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -114,7 +119,9 @@ font-size: 1.25em;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 margin-left: 8.5%;
 margin-right: 8.5%; 
+margin-bottom: 3%;
 text-align: justify;
+line-height: 200%;
 }
 
 .imagenes{
@@ -122,3 +129,22 @@ margin-left: 40%;
 margin-bottom: 1%;
 }
 
+/*CSS Boton*/
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 3% 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.boton:hover{
+background-color: lightcoral;
+color: black;
+font-style: italic;
+}
