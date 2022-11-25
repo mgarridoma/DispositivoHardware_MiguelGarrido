@@ -92,7 +92,6 @@ body{
 /*CSS elementos sueltos*/
 .elementosNav{
     font-weight: bold;
-    font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     color: black;
@@ -104,6 +103,7 @@ body{
 }
 .elementosNav:hover{
     color: gray;
+    font-style: italic;
 }
 
 .encabezados{
